@@ -1,0 +1,23 @@
+[project]
+name = "bbc-news-classification-kaggle"
+version = "0.1.0"
+description = "Text documents are one of the richest sources of data for businesses. In this competition, we will use a public dataset from the BBC, which is comprised of 2225 articles. Each article is labeled under one of five categories: business, entertainment, politics, sport, or tech."
+authors = [
+    {name = "Marco"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+[tool.poetry.dependencies]
+pandas = "^2.1.1"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.2"
+scipy = "^1.12.1"
+nltk = "^3.9.1"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
